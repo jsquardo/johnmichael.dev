@@ -27,6 +27,7 @@ summary {
 
 body {
 	display: block;
+	font-size: 1rem;
 	background-color: white;
 	color: hsla(0, 0%, 0%, 0.8);
 	font-kerning: normal;
@@ -208,10 +209,6 @@ button {
 	background: #fff;
 }
 
-.nav .brand {
-	margin-right: auto;
-}
-
 .nav .brand a {
 	font-family: 'Segoe Pro Semibold';
 	display: flex;
@@ -228,6 +225,9 @@ button {
 	align-items: center;
 	margin: auto;
 	max-width: 800px;
+	height: 55px;
+	padding: 0 1.5rem;
+	justify-content: space-between;
 }
 
 .logo {
@@ -238,11 +238,16 @@ button {
 }
 
 .nav .links {
+	display: flex;
 	align-items: center;
 	margin: 0;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex: 1 1;
 }
 
 .nav .links a {
+	font-size: 1.05rem;
 	display: flex;
 	align-items: center;
 	font-weight: 500;
@@ -281,6 +286,8 @@ main {
 }
 
 .header-section {
+	display: flex;
+	flex-direction: column;
 	margin: 0 auto;
 	font-size: 1.1rem;
 }
@@ -333,6 +340,11 @@ main {
 	margin-top: 2rem;
 }
 
+.list-item img {
+	height: 1.5rem;
+	margin-right: 1rem;
+}
+
 .flex-header {
 	display: flex;
 	flex-direction: row;
@@ -352,6 +364,30 @@ main {
 .list-item {
 	display: flex;
 	flex-direction: row;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100vw;
+}
+.footer div {
+	padding-bottom: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+.footer a {
+	font-weight: 400;
+	color: #a6a6a6;
+	display: block;
+	margin-right: 1.5rem;
+}
+.subscribe img {
+	height: 2rem;
 }
 
 /* MEDIA QUERIES */
@@ -392,6 +428,9 @@ main {
 		height: 90px;
 		padding: 0 2rem;
 	}
+	.nav .brand {
+		margin-right: auto;
+	}
 	.nav .brand a {
 		font-size: 1.3rem;
 	}
@@ -428,6 +467,7 @@ main {
 		display: flex;
 		align-items: center;
 		font-size: 1.2rem;
+		margin-bottom: 2rem;
 	}
 	.header-section .pitch {
 		margin-right: 2.5rem;
@@ -464,22 +504,27 @@ main {
 		font-size: 18px;
 		max-width: 550px;
 	}
+	.subscribe p {
+		margin-bottom: 1rem;
+	}
 	.subscribe .button {
 		font-size: 1.2rem;
 		padding: 1rem 1.2rem;
 	}
 	.flex-header {
 		width: 800px;
-		margin: 0 0 2rem;
+		/* margin: .5rem 1rem; */
 	}
 	.flex-header h2 {
 		margin-bottom: 0;
 	}
 	.flex-header img {
-		height: 2.75rem;
+		height: 2.5rem;
+		margin-left: .5rem;
 	}
 	.project-list {
-		margin: 1rem 0;
+		margin-bottom: 1rem;
+		margin-top: 0;
 	}
 	.container .github {
 		display: flex;
@@ -487,6 +532,7 @@ main {
 	}
 	.github section {
 		display: flex;
+		justify-content: start;
 	}
 	.project-list {
 		display: flex;
@@ -494,7 +540,7 @@ main {
 	}
 	.project-list a .list-item {
 		padding: .5rem 1rem;
-		margin-bottom: 1rem;
+		margin: .5rem -1rem;
 		border-radius: 4px;
 	}
 	.list-item {
@@ -524,5 +570,9 @@ main {
 		font-family: 'Segoe Pro Bold';
 		font-weight: normal;
 		color: #5183f5;
+	}
+	.footer {
+		flex-direction: row;
+		height: 100px;
 	}
 }
