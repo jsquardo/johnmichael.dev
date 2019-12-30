@@ -485,23 +485,22 @@ main {
 		display: flex;
 		flex-direction: column;
 	}
-	.project-list a {
-		display: flex;
-		flex-direction: row;
-	}
 	.github section {
 		display: flex;
 	}
+	.project-list {
+		display: flex;
+		flex-direction: column;
+	}
 	.project-list a .list-item {
 		padding: .5rem 1rem;
-		margin: 0 -1rem;
+		margin-bottom: 1rem;
 		border-radius: 4px;
 	}
 	.list-item {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		padding: .5rem 1rem;
 	}
 	.list-item:hover {
 		/* border: 2px solid #f2f2f2; */
@@ -525,7 +524,5 @@ main {
 		font-family: 'Segoe Pro Bold';
 		font-weight: normal;
 		color: #5183f5;
-	}
-	section.github-section {
 	}
 }
