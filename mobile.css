@@ -1,0 +1,11 @@
+@media only screen and (max-width: 400px) {
+	.nav-container {
+		justify-content: space-between;
+	}
+	.favicon {
+		height: auto;
+		width: 23px;
+		min-width: 23px;
+		margin-bottom: 0;
+	}
+}

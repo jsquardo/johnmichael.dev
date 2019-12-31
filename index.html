@@ -4,94 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Place this tag in your head or just before your close body tag. -->
   <link rel="stylesheet" href="./fonts/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./styles.css">
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="stylesheet" href="./tablet.css">
+  <link rel="stylesheet" href="./desktop.css">
+  <link rel="stylesheet" href="./main.css">
   <title>Document</title>
 </head>
 <body>
-  <!-- NAV -->
-  <nav class="nav">
+  <div class="nav">
     <div class="nav-container">
-      <div class="brand">
-        <a href="#">
-          <img src="./assets/HDD.png" alt="" class="logo">
-          <span class="text">Johnny Squardo</span>
-        </a>
-      </div>
-      
       <div class="links">
-        <a href="">My Projects</a>
-        <a href="">Blog</a>
+        <a href="" class="first-icon">
+          <img src="./assets/HDD.png" alt="" class="favicon">
+        </a>
         <a href="">Contact</a>
+        <a href="">Github</a>
+        <a href="">About me</a>
+        <a href=""><img src="./assets/Coffee_Icon_64px.png" class="coffee" alt=""></a>
       </div>
     </div>
-  </nav>
-
-  <!-- MAIN BODY -->
-  <main id="main-content">
-    <div class="container">
-
-      <div class="header-section">
-        <div class="pitch">
-          <h1>Hi, I'm Johnny</h1>
-          <p>I'm a software developer with a passion for working on <a href="">open source</a> side projects. JavaScript, Node.js and React are my specialty.            
-          </p>
-          <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/jsquardo" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @jsquardo on GitHub">Follow @jsquardo</a>
-        </div>
-        <div class="subscribe">
-          <img src="./assets/codeEdit.svg" alt="" class="code-icon">
-          <div>
-            <p class="bold">Get updates</p>
-            <p class="subscribe-text">Open source updates and programming tutorials.</p>
-            <a href="" class="button">Subscribe</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <section class="github-section">
-      <div class="container">
-        <div class="github">
-          <section class="projects-box">
-            <div class="flex-header">
-                <h2>Open Source Projects</h2>
-                <img src="./assets/octocat.svg" alt="">
-            </div>
-          </section>
-          <section class="github-section">
-            <div class="project-list">
-              <a href="">
-                <div class="list-item">
-                  <img src="./assets/color-swatches.png" alt="">
-                  <p class="description"><span>PickAPalette:&nbsp; </span>A React/Redux color palette web app I created for fun</p>
-                </div>
-                <div class="list-item">
-                  <img src="./assets/commerce-and-shopping.png" alt="">
-                  <p class="description"><span>Outdoorsy:&nbsp; </span>A full stack eCommerce website made with React and Firebase</p>
-                </div>
-              </a>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-    <div class="footer container">
-        <div>
-          <a href="">Contact</a>
-          <a href="">Newsletter</a>
-        </div>
-        <div>
-          <a href="https://github.com/jsquardo"><img src="./assets/octocat.svg" alt=""></a>
-        </div>
-    </div>
-  </main>
-
+  </div>
 </body>
 </html>
