@@ -2,35 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/metropolis" type="text/css"/>
   <link rel="stylesheet" href="./fonts/style.css">
+  <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./mobile.css">
   <link rel="stylesheet" href="./tablet.css">
   <link rel="stylesheet" href="./desktop.css">
-  <link rel="stylesheet" href="./main.css">
   <title>Document</title>
 </head>
 <body>
   <div class="nav">
     <div class="nav-container">
-      <div class="links">
-        <a href="" class="first-icon">
+      <div class="brand">
+        <a href="/index.html" class="first-icon">
           <img src="./assets/HDD.png" alt="" class="favicon">
+          <span class="nav-name">John Michael</span>
         </a>
+      </div>
+      <div class="links">
         <a href="">Contact</a>
         <a href="">Github</a>
         <a href="">About me</a>
-        <a href=""><img src="./assets/Octocat.png" class="octocat" alt=""></a>
+        <a href="https://github.com/jsquardo" target="_blank"><img src="./assets/Octocat.png" class="octocat" alt=""></a>
       </div>
     </div>
   </div>
   <main id='main-content'>
     <div class="container">
       <div class="header">
-        <h1>Hi, i'm Johnny</h1>
+        <div class="header-top">
+          <h1>Hi, I'm Johnny</h1>
+          <p>I'm a <span class="highlight">software developer</span> with a focus on JavScript and React with a <span class="highlight">passion</span> for programming open source projects.</p>
+          <div class="github-button">
+            <a class="github-button" href="https://github.com/jsquardo" data-size="large" aria-label="Follow @jsquardo on GitHub">Follow @jsquardo</a>
+          </div>
+        </div>
+        <div class="get-updates">
+          <img src="./assets/codeEdit.svg" class="code" alt="">
+          <div>
+            <h3>Stay Updated</h3>
+            <p>Open source projects and programming tutorials</p>
+            <a href="" class="button">Subscribe</a>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="container">
+      <section class="section">
+        <h2>Open Source Projects</h2>
+        <section class="projects">
+          <div class="each">
+            <h2>
+              <a href="" class="project-link">
+                <div class="project-icon"></div>
+                <div class="project-title">PickAPalette</div>
+              </a>
+            </h2>
+            <p>A color palette web app made with React.</p>
+            <div class="buttons">
+              <a class="github-button" href="https://github.com/jsquardo/PickAPalette" target="_blank" data-size="large" aria-label="Star jsquardo/PickAPalette on GitHub">Star</a>
+              <a href="" class="button">View</a>
+            </div>
+          </div>
+          <div class="each">
+            <h2>
+              <a href="" class="project-link">
+                <div class="project-icon"></div>
+                <div class="project-title">Outdoorsy Ecom</div>
+              </a>
+            </h2>
+            <p>eCommerce website made with Reacr/Redux and Firebase.</p>
+            <div class="buttons">
+              <a class="github-button" href="https://github.com/jsquardo/Ecom_Site" target="_blank" data-size="large" aria-label="Star jsquardo/PickAPalette on GitHub">Star</a>
+              <a href="" class="button">View</a>
+            </div>
+          </div>
+          <div class="each">
+            <h2>
+              <a href="" class="project-link">
+                <div class="project-icon"></div>
+                <div class="project-title">Card Shuffle</div>
+              </a>
+            </h2>
+            <p>Card Shuffle challenge using the Fisher-Yates shuffle algorithm and Vue.js.</p>
+            <div class="buttons">
+              <a class="github-button" href="https://github.com/jsquardo/cardShuffler" target="_blank" data-size="large" aria-label="Star jsquardo/PickAPalette on GitHub">Star</a>
+              <a href="" class="button">View</a>
+            </div>
+          </div>
+          <div class="each">
+            <h2>
+              <a href="" class="project-link">
+                <div class="project-icon"></div>
+                <div class="project-title">PyChain</div>
+              </a>
+            </h2>
+            <p>A Basic Blockchain built with python.</p>
+            <div class="buttons">
+              <a class="github-button" href="https://github.com/jsquardo/cardShuffler" target="_blank" data-size="large" aria-label="Star jsquardo/PickAPalette on GitHub">Star</a>
+              <a href="" class="button">View</a>
+            </div>
+          </div>
+          <div class="each">
+            <h2>
+              <a href="" class="project-link">
+                <div class="project-icon"></div>
+                <div class="project-title">Booking Site</div>
+              </a>
+            </h2>
+            <p>A front end for an apartment booking website.</p>
+            <div class="buttons">
+              <a class="github-button" href="https://github.com/jsquardo/cardShuffler" target="_blank" data-size="large" aria-label="Star jsquardo/PickAPalette on GitHub">Star</a>
+              <a href="" class="button">View</a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
   </main>
+  <div class="footer container">
+    <div class="footer-links">
+      <a href="" class="footer-link"><span><img src="./assets/octocat.svg" alt=""></span>Github</a>
+      <a href="" class="footer-link"><span><img src="./assets/mail.svg" alt="" class="footer-link-contact"></span>Contact</a>
+    </div>
+  </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
