@@ -380,6 +380,17 @@ button {
 	display: flex;
 	align-items: center;
 	margin-right: 1.5rem;
+	color: #404040;
+	cursor: pointer;
+}
+
+.footer div a:hover {
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	margin-right: 1.5rem;
+	color: #5183f5;
+	cursor: pointer;
 }
 
 .footer div a:last-child {
@@ -396,6 +407,10 @@ button {
 
 .footer a span img.footer-link-contact {
 	width: 25px;
+}
+
+.footer-links a {
+	color: #404040;
 }
 
 .footer-links a:hover {
