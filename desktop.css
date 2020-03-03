@@ -1,20 +1,19 @@
 @media (min-width: 961px) {
-	.brand a span {
-		display: block;
-	}
-	.footer-link a {
-		color: #404040;
-		text-decoration: none;
-	}
-
-	.footer-link a:hover {
-		color: #5183f5;
-		cursor: pointer;
-		text-decoration: none;
-	}
-	.footer-link a:visited {
-		color: #404040;
-		cursor: pointer;
-		text-decoration: none;
-	}
+    .brand a span {
+        display: block;
+    }
+    .footer-link a {
+        color: #404040;
+        text-decoration: none;
+    }
+    .footer-link a:hover {
+        color: #5183f5;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .footer-link a:visited {
+        color: #404040;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
